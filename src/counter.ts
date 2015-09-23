@@ -1,6 +1,6 @@
 import React = require ('react/addons');
 
-import CounterT = require('./Counter.rt')
+import CounterT = require('./counter.rt')
 
 interface Props {
     initialCount: number

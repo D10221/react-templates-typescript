@@ -1,4 +1,4 @@
-<rt-require dependency="./Counter" as="Counter"></rt-require>
+<rt-require dependency="./counter" as="Counter"></rt-require>
 
 <div>
     <h2>A Counter</h2>
