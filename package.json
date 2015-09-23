@@ -1,0 +1,37 @@
+{
+  "name": "react-ts-test",
+  "version": "0.0.1",
+  "description": "React Templates with typescript ",
+  "main": "./built/bundle.js",
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "react": "^0.13.0",
+    "react-templates": "^0.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/D10221/react-templates-typescript.git"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "shelljs": "^0.5.3",
+    "ts-loader": "^0.5.5",
+    "typescript": "^1.4.1"
+  },
+  "keywords": [
+    "react-templates",
+    "react",
+    "reactjs",
+    "react.js",
+    "typescript"
+  ],
+  "scripts": {
+    "start": "http-server",    
+    "ts": "tsc",
+    "webpack": "webpack",
+    "build" : "node build_rt.js && tsc && webpack",
+    "test" : "node build_test.js && mocha test"
+  }
+}

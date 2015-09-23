@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "outDir": "built",        
+        "rootDir": ".",
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "src/main.ts",
+        "src/main.rt.ts",
+        "src/counter.ts",
+        "src/counter.rt.ts",        
+        "typings/tsd.d.ts"]
+}

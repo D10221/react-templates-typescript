@@ -1,0 +1,6 @@
+<rt-require dependency="./Counter" as="Counter"></rt-require>
+
+<div>
+    <h2>A Counter</h2>
+    <Counter initialCount="4"></Counter>
+</div>
